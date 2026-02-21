@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shinwari Jongara Restaurant | Authentic Shinwari Taste</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<style>
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    scroll-behavior:smooth;
+}
+header{
+    background:url('https://images.unsplash.com/photo-1604908176997-431f08c5e0e1') no-repeat center center/cover;
+    height:100vh;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+header h1{
+    font-size:50px;
+    margin:0;
+}
+header p{
+    font-size:20px;
+    margin:10px 0 20px;
+}
+.btn{
+    background:#b22222;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+nav{
+    position:fixed;
+    width:100%;
+    background:#111;
+    padding:10px;
+    text-align:center;
+    z-index:1000;
+}
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+}
+section{
+    padding:80px 20px;
+    text-align:center;
+}
+.menu-item{
+    margin:10px 0;
+    font-size:18px;
+}
+footer{
+    background:#111;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 18px;
+    border-radius:50%;
+    font-size:22px;
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#menu">Menu</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header>
+<h1>Shinwari Jongara</h1>
+<p>Authentic Shinwari Taste in the Heart of Peshawar</p>
+<a href="#menu" class="btn">View Menu</a>
+</header>
+
+<section id="about">
+<h2>About Us</h2>
+<p>Located in Saddar Peshawar, we serve premium Shinwari cuisine prepared with fresh meat and traditional Pashtun cooking style.</p>
+</section>
+
+<section id="menu">
+<h2>Our Special Dishes</h2>
+<div class="menu-item">🔥 Shinwari Mutton Karahi</div>
+<div class="menu-item">🍖 Mutton Tikka</div>
+<div class="menu-item">🍗 Chicken Karahi</div>
+<div class="menu-item">🥩 BBQ Platter</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>📍 Saddar Road, Opposite Cantonment Railway Station, Peshawar</p>
+<p>📞 +92 316 9816272</p>
+<a href="https://wa.me/923169816272" class="btn">Order on WhatsApp</a>
+</section>
+
+<footer>
+© 2026 Shinwari Jongara Restaurant | All Rights Reserved
+</footer>
+
+<a href="https://wa.me/923169816272" class="whatsapp">💬</a>
+
+</body>
+</html>
